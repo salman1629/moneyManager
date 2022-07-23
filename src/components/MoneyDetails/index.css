@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.pic {
+  width: 60px;
+  height: 60px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.balence-container {
+  display: flex;
+  background-color: #84cc1650;
+  border: 2px solid #84cc16;
+  margin: 5px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .balence-container {
+    width: 30%;
+  }
+}
+.income-container {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+.expenses-container {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+.your-balence {
+  margin-left: 30px;
+}
